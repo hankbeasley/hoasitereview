@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?><!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+<tiles-definitions>
+        <definition name="index" template="/layouts/main.jsp">
+	        <put-attribute name="body" value="/tiles/index.jsp" />
+	        <put-attribute name="title" value="HOA Site Review"/>
+        </definition>
+        
+        <definition name="reviews/details" template="/layouts/main.jsp">
+	        <put-attribute name="body" value="/tiles/reviews/details.jsp" />
+	        <put-attribute name="title" value="HOA Site Review"/>
+        </definition>
+        
+        <definition name="admin/admin" template="/layouts/main.jsp">
+	        <put-attribute name="body" value="/tiles/admin/admin.jsp" />
+	        <put-attribute name="title" value="Admin"/>
+        </definition>
+</tiles-definitions>
