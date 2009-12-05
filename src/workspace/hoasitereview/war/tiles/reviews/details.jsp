@@ -4,6 +4,7 @@
 <%@page import="java.util.List"%>
 
     <%
+    int i = 4;//one change
 	PersistenceManager pm = PMF.get().getPersistenceManager();
 	Provider provider = pm.getObjectById(Provider.class, Integer.parseInt(request.getParameter("key")));
 	pageContext.setAttribute("p", provider);
