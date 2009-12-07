@@ -16,4 +16,9 @@
 	        <put-attribute name="body" value="/tiles/admin/admin.jsp" />
 	        <put-attribute name="title" value="Admin"/>
         </definition>
+        
+        <definition name="forum/index" template="/layouts/main.jsp">
+	        <put-attribute name="body" value="/tiles/forum/index.jsp" />
+	        <put-attribute name="title" value="Forum"/>
+        </definition>
 </tiles-definitions>
